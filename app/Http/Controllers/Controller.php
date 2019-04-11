@@ -20,7 +20,12 @@ class Controller extends BaseController
     public function cadastrar(){
         echo 'Mensagem da tela de cadastro';
     }
+
+    /**
+     * Method to user auth VIEW
+     * ====================================================================================
+     */
     public function fazerlogin(){
-        echo 'Mensagem da tela de login';
+        return view('user.login');        
     }
 }
