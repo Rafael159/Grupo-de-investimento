@@ -8,8 +8,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset('css/stylesheet.css')}}">
     <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
 </head>
-
 <body>
+    <div class="background"></div>
     <section id="conteudo-view">
         <h1>Investindo</h1>
         <h3>O nosso gerenciador de investimento</h3>

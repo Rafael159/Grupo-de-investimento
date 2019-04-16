@@ -15,7 +15,15 @@
  * stylesheet to login pages 
  *================================================ *
 **/
-
+div.background{
+    position: absolute;
+    left:0;
+    width: calc(100% - 300px);
+    height: 100vh;
+    background-image:url('../assets/images/finance.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 section#conteudo-view{
     float:right;
     width: 300px;
